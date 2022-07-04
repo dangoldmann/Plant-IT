@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icono.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantIT</title>
+</head>
+<body>
+    <nav>
+        <button input id="btnBack" class="navButtons"></button>
+        <h1 id="Titulo">PlantIt</h1>
+    </nav>
+    <div class="labels">
+        <h1 id="nombrePlanta">Nombre de la planta</h1>
+        <h1 id="tipoPlanta">Tipo de planta</h1>
+        <h1 id="humedadMinima">Humedad minima</h1>
+        <h1 id="humedadMaxima">Humedad maxima</h1>
+        <h1 id="luzMinima">Luz minima</h1>
+        <h1 id="luzMaxima">Luz maxima</h1>
+    </div>
+    <div class="objetosForm">
+        <input id="txtNombrePlanta" type="text" name="tipo_de_dato">
+        <select>
+            <option>Bonsai</option>
+            <option>Cactus</option>
+            <option>Flor</option>
+            <option>Pasto</option>
+            <option>Suculenta</option>
+            <option>Otro</option>
+        </select>
+        <div class="trackBar">
+            <p><input id="trackBarHumedadMinima" type="range" min="1" max="10" value="1">(0%)</p>
+            <p><input id="trackBarHumedadMaxima" type="range" min="1" max="10" value="1">(0%)</p>
+            <p><input id="trackBarLuzMinima" type="range" min="1" max="10" value="1">(0%)</p>
+            <p><input id="trackBarLuzMaxima" type="range" min="1" max="10" value="1">(0%)</p>
+        </div>
+        <button input id="btnOk"></button>
+        <img src="BotonBonsai.png" id="fotoPlanta">
+    </div>
+        
+</body>
+</html>

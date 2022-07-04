@@ -1,0 +1,502 @@
+#region Código generado por el Diseñador de Windows Forms
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListaPlantas));
+            lblNombre1 = new System.Windows.Forms.Label();
+            lblNombre2 = new System.Windows.Forms.Label();
+            lblNombre3 = new System.Windows.Forms.Label();
+            lblHumedad1 = new System.Windows.Forms.Label();
+            lblHumedad2 = new System.Windows.Forms.Label();
+            lblHumedad3 = new System.Windows.Forms.Label();
+            lblLuz2 = new System.Windows.Forms.Label();
+            lblLuz1 = new System.Windows.Forms.Label();
+            lblLuz3 = new System.Windows.Forms.Label();
+            pictureBox_Planta1 = new System.Windows.Forms.PictureBox();
+            pictureBox_Planta2 = new System.Windows.Forms.PictureBox();
+            pictureBox_Planta3 = new System.Windows.Forms.PictureBox();
+            btnAgregar1 = new System.Windows.Forms.Button();
+            btnAgregar2 = new System.Windows.Forms.Button();
+            btnAgregar3 = new System.Windows.Forms.Button();
+            btnInfo1 = new System.Windows.Forms.Button();
+            btnInfo2 = new System.Windows.Forms.Button();
+            btnInfo3 = new System.Windows.Forms.Button();
+            this.btnEdit1 = new System.Windows.Forms.Button();
+            this.btnEdit2 = new System.Windows.Forms.Button();
+            this.btnEdit3 = new System.Windows.Forms.Button();
+            this.btnBorrar1 = new System.Windows.Forms.Button();
+            this.btnBorrar2 = new System.Windows.Forms.Button();
+            this.btnBorrar3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btn_ConexionSerialPort1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox_Planta1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox_Planta2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox_Planta3)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // lblNombre1
+            // 
+            lblNombre1.AutoSize = true;
+            lblNombre1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            lblNombre1.Font = new System.Drawing.Font("Comfortaa", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lblNombre1.ForeColor = System.Drawing.SystemColors.ControlText;
+            lblNombre1.Location = new System.Drawing.Point(257, 180);
+            lblNombre1.Name = "lblNombre1";
+            lblNombre1.Size = new System.Drawing.Size(155, 42);
+            lblNombre1.TabIndex = 11;
+            lblNombre1.Text = "Planta 1";
+            // 
+            // lblNombre2
+            // 
+            lblNombre2.AutoSize = true;
+            lblNombre2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            lblNombre2.Font = new System.Drawing.Font("Comfortaa", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lblNombre2.Location = new System.Drawing.Point(257, 372);
+            lblNombre2.Name = "lblNombre2";
+            lblNombre2.Size = new System.Drawing.Size(155, 42);
+            lblNombre2.TabIndex = 21;
+            lblNombre2.Text = "Planta 2";
+            // 
+            // lblNombre3
+            // 
+            lblNombre3.AutoSize = true;
+            lblNombre3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            lblNombre3.Font = new System.Drawing.Font("Comfortaa", 27.75F);
+            lblNombre3.Location = new System.Drawing.Point(257, 564);
+            lblNombre3.Name = "lblNombre3";
+            lblNombre3.Size = new System.Drawing.Size(155, 42);
+            lblNombre3.TabIndex = 22;
+            lblNombre3.Text = "Planta 3";
+            // 
+            // lblHumedad1
+            // 
+            lblHumedad1.AutoSize = true;
+            lblHumedad1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            lblHumedad1.Font = new System.Drawing.Font("Comfortaa", 14.25F);
+            lblHumedad1.Location = new System.Drawing.Point(266, 251);
+            lblHumedad1.Name = "lblHumedad1";
+            lblHumedad1.Size = new System.Drawing.Size(116, 24);
+            lblHumedad1.TabIndex = 13;
+            lblHumedad1.Text = "Humedad: --";
+            // 
+            // lblHumedad2
+            // 
+            lblHumedad2.AutoSize = true;
+            lblHumedad2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            lblHumedad2.Font = new System.Drawing.Font("Comfortaa", 14.25F);
+            lblHumedad2.Location = new System.Drawing.Point(266, 443);
+            lblHumedad2.Name = "lblHumedad2";
+            lblHumedad2.Size = new System.Drawing.Size(116, 24);
+            lblHumedad2.TabIndex = 17;
+            lblHumedad2.Text = "Humedad: --";
+            // 
+            // lblHumedad3
+            // 
+            lblHumedad3.AutoSize = true;
+            lblHumedad3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            lblHumedad3.Font = new System.Drawing.Font("Comfortaa", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lblHumedad3.Location = new System.Drawing.Point(266, 635);
+            lblHumedad3.Name = "lblHumedad3";
+            lblHumedad3.Size = new System.Drawing.Size(116, 24);
+            lblHumedad3.TabIndex = 18;
+            lblHumedad3.Text = "Humedad: --";
+            // 
+            // lblLuz1
+            // 
+            lblLuz1.AutoSize = true;
+            lblLuz1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            lblLuz1.Font = new System.Drawing.Font("Comfortaa", 14.25F);
+            lblLuz1.Location = new System.Drawing.Point(517, 251);
+            lblLuz1.Name = "lblLuz1";
+            lblLuz1.Size = new System.Drawing.Size(62, 24);
+            lblLuz1.TabIndex = 26;
+            lblLuz1.Text = "Luz: --";
+            // 
+            // lblLuz2
+            // 
+            lblLuz2.AutoSize = true;
+            lblLuz2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            lblLuz2.Font = new System.Drawing.Font("Comfortaa", 14.25F);
+            lblLuz2.Location = new System.Drawing.Point(517, 443);
+            lblLuz2.Name = "lblLuz2";
+            lblLuz2.Size = new System.Drawing.Size(62, 24);
+            lblLuz2.TabIndex = 25;
+            lblLuz2.Text = "Luz: --";
+            // 
+            // lblLuz3
+            // 
+            lblLuz3.AutoSize = true;
+            lblLuz3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            lblLuz3.Font = new System.Drawing.Font("Comfortaa", 14.25F);
+            lblLuz3.Location = new System.Drawing.Point(517, 635);
+            lblLuz3.Name = "lblLuz3";
+            lblLuz3.Size = new System.Drawing.Size(62, 24);
+            lblLuz3.TabIndex = 20;
+            lblLuz3.Text = "Luz: --";
+            // 
+            // pictureBox_Planta1
+            // 
+            pictureBox_Planta1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            pictureBox_Planta1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            pictureBox_Planta1.Location = new System.Drawing.Point(853, 188);
+            pictureBox_Planta1.Name = "pictureBox_Planta1";
+            pictureBox_Planta1.Size = new System.Drawing.Size(125, 100);
+            pictureBox_Planta1.TabIndex = 28;
+            pictureBox_Planta1.TabStop = false;
+            // 
+            // pictureBox_Planta2
+            // 
+            pictureBox_Planta2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            pictureBox_Planta2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            pictureBox_Planta2.Location = new System.Drawing.Point(853, 378);
+            pictureBox_Planta2.Name = "pictureBox_Planta2";
+            pictureBox_Planta2.Size = new System.Drawing.Size(125, 100);
+            pictureBox_Planta2.TabIndex = 29;
+            pictureBox_Planta2.TabStop = false;
+            // 
+            // pictureBox_Planta3
+            // 
+            pictureBox_Planta3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(227)))), ((int)(((byte)(140)))));
+            pictureBox_Planta3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            pictureBox_Planta3.Location = new System.Drawing.Point(853, 571);
+            pictureBox_Planta3.Name = "pictureBox_Planta3";
+            pictureBox_Planta3.Size = new System.Drawing.Size(125, 100);
+            pictureBox_Planta3.TabIndex = 30;
+            pictureBox_Planta3.TabStop = false;
+            // 
+            // btnAgregar1
+            // 
+            btnAgregar1.BackColor = System.Drawing.Color.Transparent;
+            btnAgregar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAgregar1.BackgroundImage")));
+            btnAgregar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            btnAgregar1.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnAgregar1.FlatAppearance.BorderSize = 0;
+            btnAgregar1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnAgregar1.Location = new System.Drawing.Point(1107, 174);
+            btnAgregar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            btnAgregar1.Name = "btnAgregar1";
+            btnAgregar1.Size = new System.Drawing.Size(187, 125);
+            btnAgregar1.TabIndex = 7;
+            btnAgregar1.UseVisualStyleBackColor = false;
+            btnAgregar1.Click += new System.EventHandler(this.btnAgregar1_Click);
+            // 
+            // btnAgregar2
+            // 
+            btnAgregar2.BackColor = System.Drawing.Color.Transparent;
+            btnAgregar2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAgregar2.BackgroundImage")));
+            btnAgregar2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            btnAgregar2.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnAgregar2.FlatAppearance.BorderSize = 0;
+            btnAgregar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnAgregar2.Location = new System.Drawing.Point(1107, 368);
+            btnAgregar2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            btnAgregar2.Name = "btnAgregar2";
+            btnAgregar2.Size = new System.Drawing.Size(187, 125);
+            btnAgregar2.TabIndex = 8;
+            btnAgregar2.UseVisualStyleBackColor = false;
+            btnAgregar2.Click += new System.EventHandler(this.btnAgregar2_Click);
+            // 
+            // btnAgregar3
+            // 
+            btnAgregar3.BackColor = System.Drawing.Color.Transparent;
+            btnAgregar3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAgregar3.BackgroundImage")));
+            btnAgregar3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            btnAgregar3.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnAgregar3.FlatAppearance.BorderSize = 0;
+            btnAgregar3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnAgregar3.Location = new System.Drawing.Point(1107, 549);
+            btnAgregar3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            btnAgregar3.Name = "btnAgregar3";
+            btnAgregar3.Size = new System.Drawing.Size(187, 125);
+            btnAgregar3.TabIndex = 9;
+            btnAgregar3.UseVisualStyleBackColor = false;
+            btnAgregar3.Click += new System.EventHandler(this.btnAgregar3_Click);
+            // 
+            // btnInfo1
+            // 
+            btnInfo1.BackColor = System.Drawing.Color.Transparent;
+            btnInfo1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInfo1.BackgroundImage")));
+            btnInfo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            btnInfo1.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnInfo1.FlatAppearance.BorderSize = 0;
+            btnInfo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnInfo1.Location = new System.Drawing.Point(1107, 174);
+            btnInfo1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            btnInfo1.Name = "btnInfo1";
+            btnInfo1.Size = new System.Drawing.Size(187, 125);
+            btnInfo1.TabIndex = 31;
+            btnInfo1.UseVisualStyleBackColor = false;
+            btnInfo1.Click += new System.EventHandler(this.btnInfo1_Click);
+            // 
+            // btnInfo2
+            // 
+            btnInfo2.BackColor = System.Drawing.Color.Transparent;
+            btnInfo2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInfo2.BackgroundImage")));
+            btnInfo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            btnInfo2.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnInfo2.FlatAppearance.BorderSize = 0;
+            btnInfo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnInfo2.Location = new System.Drawing.Point(1107, 368);
+            btnInfo2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            btnInfo2.Name = "btnInfo2";
+            btnInfo2.Size = new System.Drawing.Size(187, 125);
+            btnInfo2.TabIndex = 32;
+            btnInfo2.UseVisualStyleBackColor = false;
+            btnInfo2.Click += new System.EventHandler(this.btnInfo2_Click);
+            // 
+            // btnInfo3
+            // 
+            btnInfo3.BackColor = System.Drawing.Color.Transparent;
+            btnInfo3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInfo3.BackgroundImage")));
+            btnInfo3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            btnInfo3.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnInfo3.FlatAppearance.BorderSize = 0;
+            btnInfo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnInfo3.Location = new System.Drawing.Point(1107, 549);
+            btnInfo3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            btnInfo3.Name = "btnInfo3";
+            btnInfo3.Size = new System.Drawing.Size(187, 125);
+            btnInfo3.TabIndex = 34;
+            btnInfo3.UseVisualStyleBackColor = false;
+            btnInfo3.Click += new System.EventHandler(this.btnInfo3_Click);
+            // 
+            // btnEdit1
+            // 
+            this.btnEdit1.AutoSize = true;
+            this.btnEdit1.BackColor = System.Drawing.Color.Transparent;
+            this.btnEdit1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEdit1.BackgroundImage")));
+            this.btnEdit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEdit1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEdit1.FlatAppearance.BorderSize = 0;
+            this.btnEdit1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEdit1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(210)))), ((int)(((byte)(100)))));
+            this.btnEdit1.Location = new System.Drawing.Point(68, 169);
+            this.btnEdit1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEdit1.Name = "btnEdit1";
+            this.btnEdit1.Size = new System.Drawing.Size(70, 70);
+            this.btnEdit1.TabIndex = 0;
+            this.btnEdit1.UseVisualStyleBackColor = false;
+            this.btnEdit1.Click += new System.EventHandler(this.btnEdit1_Click);
+            // 
+            // btnEdit2
+            // 
+            this.btnEdit2.BackColor = System.Drawing.Color.Transparent;
+            this.btnEdit2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEdit2.BackgroundImage")));
+            this.btnEdit2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEdit2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEdit2.FlatAppearance.BorderSize = 0;
+            this.btnEdit2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEdit2.Location = new System.Drawing.Point(68, 361);
+            this.btnEdit2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEdit2.Name = "btnEdit2";
+            this.btnEdit2.Size = new System.Drawing.Size(70, 70);
+            this.btnEdit2.TabIndex = 1;
+            this.btnEdit2.UseVisualStyleBackColor = false;
+            this.btnEdit2.Click += new System.EventHandler(this.btnEdit2_Click);
+            // 
+            // btnEdit3
+            // 
+            this.btnEdit3.BackColor = System.Drawing.Color.Transparent;
+            this.btnEdit3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEdit3.BackgroundImage")));
+            this.btnEdit3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEdit3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEdit3.FlatAppearance.BorderSize = 0;
+            this.btnEdit3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEdit3.Location = new System.Drawing.Point(68, 545);
+            this.btnEdit3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEdit3.Name = "btnEdit3";
+            this.btnEdit3.Size = new System.Drawing.Size(70, 70);
+            this.btnEdit3.TabIndex = 2;
+            this.btnEdit3.UseVisualStyleBackColor = false;
+            this.btnEdit3.Click += new System.EventHandler(this.btnEdit3_Click);
+            // 
+            // btnBorrar1
+            // 
+            this.btnBorrar1.BackColor = System.Drawing.Color.Transparent;
+            this.btnBorrar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBorrar1.BackgroundImage")));
+            this.btnBorrar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBorrar1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBorrar1.FlatAppearance.BorderSize = 0;
+            this.btnBorrar1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBorrar1.Location = new System.Drawing.Point(68, 244);
+            this.btnBorrar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBorrar1.Name = "btnBorrar1";
+            this.btnBorrar1.Size = new System.Drawing.Size(70, 70);
+            this.btnBorrar1.TabIndex = 3;
+            this.btnBorrar1.UseVisualStyleBackColor = false;
+            this.btnBorrar1.Click += new System.EventHandler(this.btnBorrar1_Click);
+            // 
+            // btnBorrar2
+            // 
+            this.btnBorrar2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBorrar2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBorrar2.BackgroundImage")));
+            this.btnBorrar2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBorrar2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBorrar2.FlatAppearance.BorderSize = 0;
+            this.btnBorrar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBorrar2.ForeColor = System.Drawing.Color.Transparent;
+            this.btnBorrar2.Location = new System.Drawing.Point(68, 437);
+            this.btnBorrar2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBorrar2.Name = "btnBorrar2";
+            this.btnBorrar2.Size = new System.Drawing.Size(70, 70);
+            this.btnBorrar2.TabIndex = 4;
+            this.btnBorrar2.UseVisualStyleBackColor = false;
+            this.btnBorrar2.Click += new System.EventHandler(this.btnBorrar2_Click);
+            // 
+            // btnBorrar3
+            // 
+            this.btnBorrar3.BackColor = System.Drawing.Color.Transparent;
+            this.btnBorrar3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBorrar3.BackgroundImage")));
+            this.btnBorrar3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBorrar3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBorrar3.FlatAppearance.BorderSize = 0;
+            this.btnBorrar3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBorrar3.Location = new System.Drawing.Point(68, 619);
+            this.btnBorrar3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBorrar3.Name = "btnBorrar3";
+            this.btnBorrar3.Size = new System.Drawing.Size(70, 70);
+            this.btnBorrar3.TabIndex = 5;
+            this.btnBorrar3.UseVisualStyleBackColor = false;
+            this.btnBorrar3.Click += new System.EventHandler(this.btnBorrar3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(234, 169);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(825, 134);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(234, 361);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(825, 134);
+            this.pictureBox2.TabIndex = 15;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(234, 553);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(825, 134);
+            this.pictureBox3.TabIndex = 16;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btn_ConexionSerialPort1
+            // 
+            this.btn_ConexionSerialPort1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_ConexionSerialPort1.BackgroundImage = global::COPIA.Properties.Resources.btnSerial;
+            this.btn_ConexionSerialPort1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_ConexionSerialPort1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_ConexionSerialPort1.FlatAppearance.BorderSize = 0;
+            this.btn_ConexionSerialPort1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ConexionSerialPort1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(210)))), ((int)(((byte)(100)))));
+            this.btn_ConexionSerialPort1.Location = new System.Drawing.Point(1157, 27);
+            this.btn_ConexionSerialPort1.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_ConexionSerialPort1.Name = "btn_ConexionSerialPort1";
+            this.btn_ConexionSerialPort1.Size = new System.Drawing.Size(70, 70);
+            this.btn_ConexionSerialPort1.TabIndex = 23;
+            this.btn_ConexionSerialPort1.UseVisualStyleBackColor = false;
+            this.btn_ConexionSerialPort1.Click += new System.EventHandler(this.btnConexionSerialPort_Click);
+            // 
+            // ListaPlantas
+            // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.Aquamarine;
+            this.BackgroundImage = global::COPIA.Properties.Resources.FondoForm;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.Controls.Add(lblNombre1);
+            this.Controls.Add(lblNombre2);
+            this.Controls.Add(lblNombre3);
+            this.Controls.Add(lblHumedad1);
+            this.Controls.Add(lblHumedad2);
+            this.Controls.Add(lblHumedad3);
+            this.Controls.Add(lblLuz1);
+            this.Controls.Add(lblLuz2);
+            this.Controls.Add(lblLuz3);
+            this.Controls.Add(pictureBox_Planta1);
+            this.Controls.Add(pictureBox_Planta2);
+            this.Controls.Add(pictureBox_Planta3);
+            this.Controls.Add(btnAgregar1);
+            this.Controls.Add(btnAgregar2);
+            this.Controls.Add(btnAgregar3);
+            this.Controls.Add(btnInfo1);
+            this.Controls.Add(btnInfo2);
+            this.Controls.Add(btnInfo3);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.btnEdit1);
+            this.Controls.Add(this.btnEdit2);
+            this.Controls.Add(this.btnEdit3);
+            this.Controls.Add(this.btnBorrar1);
+            this.Controls.Add(this.btnBorrar2);
+            this.Controls.Add(this.btnBorrar3);
+            this.Controls.Add(this.btn_ConexionSerialPort1);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "ListaPlantas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lista de plantas";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.ListaPlantas_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox_Planta1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox_Planta2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox_Planta3)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+        #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button btnEdit1;
+        private System.Windows.Forms.Button btnEdit2;
+        private System.Windows.Forms.Button btnEdit3;
+        private System.Windows.Forms.Button btnBorrar1;
+        private System.Windows.Forms.Button btnBorrar2;
+        private System.Windows.Forms.Button btnBorrar3;
+        private System.Windows.Forms.Button btn_ConexionSerialPort1;
+        public static System.Windows.Forms.Label lblNombre1;
+        public static System.Windows.Forms.Label lblNombre2;
+        public static System.Windows.Forms.Label lblNombre3;
+        public static System.Windows.Forms.Label lblHumedad1;
+        public static System.Windows.Forms.Label lblHumedad2;
+        public static System.Windows.Forms.Label lblHumedad3;
+        public static System.Windows.Forms.Label lblLuz1;
+        public static System.Windows.Forms.Label lblLuz2;
+        public static System.Windows.Forms.Label lblLuz3;
+        public static System.Windows.Forms.PictureBox pictureBox_Planta1;
+        public static System.Windows.Forms.PictureBox pictureBox_Planta2;
+        public static System.Windows.Forms.PictureBox pictureBox_Planta3;
+        public static System.Windows.Forms.Button btnAgregar1;
+        public static System.Windows.Forms.Button btnAgregar2;
+        public static System.Windows.Forms.Button btnAgregar3;
+        public static System.Windows.Forms.Button btnInfo1;
+        public static System.Windows.Forms.Button btnInfo2;
+        public static System.Windows.Forms.Button btnInfo3;

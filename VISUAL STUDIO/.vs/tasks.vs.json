@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-NewFolder",
+      "appliesTo": "COPIA/NewFolder/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarea-VISUAL STUDIO",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

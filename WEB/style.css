@@ -1,0 +1,230 @@
+body {
+    margin : 0;
+    text-align: center;
+    line-height: 10px;
+    background-image: url("FONDOWEB.jpg");
+    background-size: cover;   
+    font-family: "Comfortaa";
+    scroll-behavior: unset;
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url("Comfortaa.ttf");
+}
+
+nav {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100px;   
+    background-color: #ebe721;
+}
+
+#Titulo{
+    color:green;
+    font-size: 45pt;
+}
+
+/*#region BOTONES */
+button {
+    cursor: pointer;
+    border: none;
+    background-size: cover;
+    position: absolute;
+    background-color: transparent;
+}
+
+.navButtons{
+    top: 25%;
+    height: 52px;
+    width: 57px;
+}
+
+#btnSerialPort {
+    right: 5%;
+    background-image: url("btnSerial.png");
+}
+
+#btnNotificaciones{
+    left: 5%;
+    background-image: url("BtnConfigR.png");
+}
+
+#btnBack {
+    width: 65px;
+    left: 5%;
+    background-image: url("btnBack.png");
+}
+
+#btnOk {
+    height: 60px;
+    width: 105px;
+    right: 2%;
+    bottom: 4%;
+    background-image: url("btnOk.png");
+}
+/*#endregion*/
+
+/*#region BTN EDIT */
+.btnEdit {
+    background-image: url("btnEdicion.png");
+    height: 70px;
+    width: 70px;
+    left: 10%;
+}
+
+#btnEdit1 {
+    top: 20%;
+}
+
+#btnEdit2 {
+    top: 45%;
+}
+
+#btnEdit3 {
+    top:70%;
+}
+/*#endregion*/
+
+/*#region BTN BORRAR */
+.btnBorrar {
+    background-image: url("btnEliminar.png");
+    height: 70px;
+    width: 70px;
+    left: 10%;
+}
+
+#btnBorrar1 {
+    top: 31%;
+}
+
+#btnBorrar2 {
+    top: 56%;
+}
+
+#btnBorrar3 {
+    top:81%;
+}
+/*#endregion*/
+
+/*#region BTN AGREGAR*/
+.btnAgregar {
+    background-image: url("btnAgregar.png");
+    height: 110px;
+    width: 160px;
+    right: 15%;
+}
+
+#btnAgregar1 {
+    top: 23%;
+}
+
+#btnAgregar2 {
+    top: 48%;
+}
+
+#btnAgregar3 {
+    top: 73%;
+}
+/*#endregion*/
+
+/*#region FONDO LABEL*/
+.fondoLabel {
+    position: absolute;
+    height: 120px;
+    left:20%;
+}
+
+#fondoLabel1 {
+    top:22%;
+}
+
+#fondoLabel2 {
+    top:47%;
+}
+
+#fondoLabel3 {
+    top:72%;
+}
+/*#endregion*/
+
+/*#region LABELS EDICION*/
+.labels {
+    padding-top: 10%;
+    padding-left: 5%;
+    text-align: left;
+    font-size: 15pt;
+}
+
+#tipoPlanta {
+    padding-top: 4%;
+}
+
+#humedadMinima {
+    padding-top: 4%;
+}
+
+#humedadMaxima {
+    padding-top: 4%;
+}
+
+#luzMinima {
+    padding-top: 4%;
+}
+
+#luzMaxima {
+    padding-top: 4%;
+}
+/*#endregion*/
+
+/*#region TRACK BARS */
+.trackBar {
+    position: absolute;
+    top:47%;
+    left:40%;
+    font-size: 26pt;
+}
+
+#trackBarHumedadMinima {
+    width: 400px;
+}
+
+#trackBarHumedadMaxima {
+    width: 400px;
+}
+
+#trackBarLuzMinima {
+    width: 400px;
+}
+
+#trackBarLuzMaxima {
+    width: 400px;
+}
+/*#endregion*/
+
+#fotoPlanta {
+    position: absolute;
+    top:40%;
+    right: 5%;
+    height: 220px;
+}
+
+#txtNombrePlanta {
+    position: absolute;
+    top:23%;
+    left: 40%;
+    font-size: 24pt;
+}
+
+select {
+    position: absolute;
+    top:36%;
+    left: 40%;
+    width: 26%;
+    font-size: 24pt;
+}
+
+
+
+
