@@ -1,4 +1,4 @@
-# Plant-IT
+# PlantIT
 
 ## Descripción
 
